@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@RequestMapping("/home")
 	public String index(){
-		System.out.println("Carregando os produtos!!!");
+		System.out.println("Carregando todos os produtos!!!");
 		return "Hello";
 	}
 	
